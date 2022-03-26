@@ -1,0 +1,97 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">themestek-portfolio</custom-type>
+    <custom-type translate="1">themestek-service</custom-type>
+    <custom-type translate="1">themestek-team</custom-type>
+    <custom-type translate="1">themestek-testimonial</custom-type>
+    <custom-type translate="1">themestek-client</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">themestek-portfolio-category</taxonomy>
+    <taxonomy translate="1">themestek-service-category</taxonomy>
+    <taxonomy translate="1">themestek-team-group</taxonomy>
+    <taxonomy translate="1">themestek-testimonial-group</taxonomy>
+    <taxonomy translate="1">themestek-client-group</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="liviza_theme_options">
+      <key name="global_background">
+        <key name="image"/>
+        <key name="imageid"/>
+        <key name="repeat"/>
+        <key name="position"/>
+        <key name="attachment"/>
+        <key name="size"/>
+        <key name="color"/>
+      </key>
+      <key name="titlebar_background">
+        <key name="image"/>
+        <key name="imageid"/>
+        <key name="repeat"/>
+        <key name="position"/>
+        <key name="attachment"/>
+        <key name="size"/>
+        <key name="color"/>
+      </key>
+      <key name="logoimg">
+        <key name="id"/>
+        <key name="thumb-url"/>
+        <key name="full-url"/>
+      </key>
+      <key name="logoimg_sticky">
+        <key name="id"/>
+        <key name="thumb-url"/>
+        <key name="full-url"/>
+      </key>
+      <key name="topbar_left_text"/>
+      <key name="topbar_right_text"/>
+      <key name="infostack_first_box"/>
+      <key name="infostack_second_box"/>
+      <key name="infostack_third_box"/>
+      <key name="footer_copyright_left"/>
+      <key name="footer_copyright_right"/>
+      <key name="portfolio_project_details"/>
+      <key name="portfolio_related_title"/>
+      <key name="pf_details_line">
+        <key name="2">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="3">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="4">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="5">
+          <key name="pf_details_line_title"/>
+        </key>
+      </key>
+      <key name="portfolio_social_share_title"/>
+      <key name="error404_big_text"/>
+      <key name="error404_medium_text"/>
+      <key name="search_box_heading"/>
+      <key name="search_input"/>
+      <key name="uconstruction_background">
+        <key name="image"/>
+        <key name="imageid"/>
+        <key name="repeat"/>
+        <key name="position"/>
+        <key name="attachment"/>
+        <key name="size"/>
+        <key name="color"/>
+      </key>
+	  <key name="pf_type_title"/>
+      <key name="pf_type_title_singular"/>
+      <key name="pf_cat_title"/>
+      <key name="pf_cat_title_singular"/>
+	  <key name="service_type_title"/>
+      <key name="service_type_title_singular"/>
+      <key name="service_cat_title"/>
+      <key name="service_cat_title_singular"/>
+      <key name="team_type_title"/>
+      <key name="team_type_title_singular"/>
+      <key name="team_group_title"/>
+      <key name="team_group_title_singular"/>
+    </key>
+  </admin-texts>
+</wpml-config>

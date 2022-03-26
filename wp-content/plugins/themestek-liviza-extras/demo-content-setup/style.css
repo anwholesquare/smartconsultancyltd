@@ -1,0 +1,120 @@
+.themestek-demo-import-form-bg-grey {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: rgba(0, 0, 0, 0.85);
+	text-align: center;
+}
+#themestek-demo-import-form {
+	width: auto;
+	background: black;
+	margin: 0 auto;
+	padding: 31px;
+	display: inline-block;
+	position: relative;
+	margin-top: 50px;
+}
+
+.import-demo-thumb-img {
+	position: relative;
+}
+.import-demo-thumb-img-overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.70);
+}
+.import-demo-thumb-img-overlay i{
+	color: rgba(255, 255, 255, 0.55);
+	font-size: 50px;
+}
+.import-demo-thumb-img-overlay-inner{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-khtml-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.themestek-demo-import-close-w {
+	font-size: 20px;
+	background: #ffffff1f;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 23px;
+	position: absolute;
+	right: 35px;
+}
+.themestek-demo-import-close-w a:focus {
+	color: white;
+	box-shadow: none;
+}
+.wp-admin.toplevel_page_themestek-theme-options #TB_ajaxContent{
+	background: #2d2d2d;
+	color: white;
+	width: auto !important;
+    height: 100% !important;
+}
+#themestek-demo-import-form-inner {
+	width: 100%;
+	height: 100%;
+	min-width: 700px;
+	text-align: center;
+}
+#themestek-demo-import-form-inner h2{
+	color: white;
+}
+.themestek-import-demo-buttons {
+	padding-top: 10px;
+}
+.themestek-import-demo-conformation {
+	border: 1px solid #3e3e3e;
+	padding: 10px;
+	margin: 10px 0;
+	
+}
+.themestek-import-demo-conformation.themestek-import-demo-progress{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 125px;
+	text-align: left;
+}
+body .themestek-import-demo-conformation{
+	text-align: center;
+	color: #fff;
+}
+body .themestek-import-demo-conformation p{
+	margin: 10px 0;
+	padding: 0 0 0 20px !important;
+	text-align: left;
+	font-size: 11px;
+	line-height: 13px;
+	color: #bbbbbb;
+	position: relative;
+	display: block;
+}
+body .themestek-import-demo-conformation p:before{
+	display: block;
+	position: absolute;
+	content: "\f00c";
+	font: normal normal normal 14px/1 FontAwesome;
+	left: 0;
+}
+.import-demo-thumb-w{
+	border: 3px solid #000000;
+	display: block;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	width: 206px;
+	background-color: #191919;
+}
